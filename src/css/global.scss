@@ -1,1 +1,23 @@
 @import './reset';
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+
+  min-height: 100%;
+}
+
+#app {
+  flex: 1 1 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+}

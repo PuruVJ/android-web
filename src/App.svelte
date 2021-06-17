@@ -6,4 +6,13 @@
   <title>Noice</title>
 </svelte:head>
 
-<h1>Hello</h1>
+<main class="container">
+  <h1>Hello</h1>
+</main>
+
+<style lang="scss">
+  .container {
+    height: 100%;
+    aspect-ratio: 3 / 6;
+  }
+</style>

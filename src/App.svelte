@@ -1,18 +1,23 @@
 <script lang="ts">
   import '__/css/global.scss';
+  import LockScreen from './views/LockScreen.svelte';
 </script>
 
 <svelte:head>
-  <title>Noice</title>
+  <title>Android 12 Web in Svelte</title>
 </svelte:head>
 
 <main class="container">
-  <h1>Hello</h1>
+  <LockScreen />
 </main>
 
 <style lang="scss">
   .container {
     height: 100%;
-    aspect-ratio: 3 / 6;
+    aspect-ratio: 3.5 / 6;
+
+    background-image: url(/lockscreen.jpg);
+    background-size: cover;
+    background-position: center center;
   }
 </style>

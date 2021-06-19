@@ -1,10 +1,9 @@
 <script lang="ts">
   import { time } from '__/stores/time.store';
+  import { format } from 'date-fns';
 
-  const format = (n: number) => `0${n}`.slice(-2);
-
-  $: [hour1, hour2] = format($time.getHours() % 12).split('');
-  $: [minutes1, minutes2] = format($time.getMinutes()).split('');
+  $: [hour1, hour2] = format($time, 'hh').split('');
+  $: [minutes1, minutes2] = format($time, 'mm').split('');
 </script>
 
 <main>

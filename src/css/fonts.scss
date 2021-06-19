@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 300;
   src: local('Google Sans'), local('Product Sans'),
-    url('../../public/fonts/ProductSans-Light.woff2') format('woff2');
+    url('/fonts/ProductSans-Light.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Google Sans'), local('Product Sans'),
-    url('../../public/fonts/ProductSans-Regular.woff2') format('woff2');
+    url('/fonts/ProductSans-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: 500;
   src: local('Google Sans'), local('Product Sans'),
-    url('../../public/fonts/ProductSans-Medium.woff2') format('woff2');
+    url('/fonts/ProductSans-Medium.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -33,6 +33,6 @@
   font-style: normal;
   font-weight: 500;
   src: local('Google Sans'), local('Product Sans'),
-    url('../../public/fonts/ProductSans-Bold.woff2') format('woff2');
+    url('/fonts/ProductSans-Bold.woff2') format('woff2');
   font-display: swap;
 }

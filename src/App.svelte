@@ -3,10 +3,6 @@
   import LockScreen from './views/LockScreen.svelte';
 </script>
 
-<svelte:head>
-  <title>Android 12 Web in Svelte</title>
-</svelte:head>
-
 <main class="container">
   <LockScreen />
 </main>

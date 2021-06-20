@@ -16,4 +16,11 @@
     background-size: cover;
     background-position: center center;
   }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      aspect-ratio: unset;
+    }
+  }
 </style>

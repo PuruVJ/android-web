@@ -26,7 +26,7 @@
   h1 {
     color: var(--app-lockscreen-clock-color);
     font-size: 15rem;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 0.9;
     text-align: center;
 
@@ -34,6 +34,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 0;
   }
 
   .clock {

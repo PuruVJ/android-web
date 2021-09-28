@@ -1,7 +1,8 @@
 import { readable } from 'svelte/store';
 
-export const time = readable(new Date(), (set) => {
-  const timer = setInterval(() => set(new Date()), 1000);
+export const createTimerStore = (duration: number) =>
+  readable(new Date(), (set) => {
+    const timer = setInterval(() => set(new Date()), duration);
 
-  return () => clearInterval(timer);
-});
+    return () => clearInterval(timer);
+  });

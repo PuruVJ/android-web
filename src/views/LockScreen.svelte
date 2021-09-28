@@ -1,6 +1,8 @@
 <script lang="ts">
-  import { time } from '__/stores/time.store';
+  import { createTimerStore } from '__/stores/time.store';
   import { format } from 'date-fns';
+
+  const time = createTimerStore(1000);
 
   $: [hour1, hour2] = format($time, 'hh').split('');
   $: [minutes1, minutes2] = format($time, 'mm').split('');
